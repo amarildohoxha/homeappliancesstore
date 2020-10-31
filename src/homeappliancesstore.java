@@ -22,7 +22,7 @@ public class homeappliancesstore{
     public static String getDiefthinsi(){
         return diefthinsi;
     }
-    public static Integer getPlhthos(){
+    public static int getPlhthos(){
         return plhthos;
     }
     public static void setOnoma(String args[]){
