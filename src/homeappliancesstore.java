@@ -4,7 +4,7 @@ public class homeappliancesstore{
      static int plhthos;
 
 
-    public static void main(String args[])
+    public static void main(String[] args)
     {
 
         setOnoma(args[0]);
@@ -13,7 +13,7 @@ public class homeappliancesstore{
         getOnoma();
         getOnoma();
         getOnoma();
-            System.out.println( "To perioxomenoton metablhton einai: \nonoma:" +onoma+ "\ndiefthinsi:" +diefthinsi+ "\nplhthos:"+plhthos);
+            System.out.println( "To perioxomenoton metablhton einai: \nonoma:" +getOnoma()+ "\ndiefthinsi:" +getDiefthinsi()+ "\nplhthos:"+getPlhthos());
     }
 
     public static String getOnoma(){
