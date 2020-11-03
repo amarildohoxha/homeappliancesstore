@@ -7,12 +7,12 @@ public class homeappliancesstore{
     public static void main(String args[])
     {
 
-        setOnoma(args);
-        setPlhthos(args);
-        setDiefthinsi(args);
-        getDiefthinsi();
+        setOnoma(args[0]);
+        setPlhthos(Integer.parseInt(args[2]));
+        setDiefthinsi(args[1]);
         getOnoma();
-        getPlhthos();
+        getOnoma();
+        getOnoma();
             System.out.println( "To perioxomenoton metablhton einai: \nonoma:" +onoma+ "\ndiefthinsi:" +diefthinsi+ "\nplhthos:"+plhthos);
     }
 
@@ -22,17 +22,17 @@ public class homeappliancesstore{
     public static String getDiefthinsi(){
         return diefthinsi;
     }
-    public static Integer getPlhthos(){
+    public static int getPlhthos(){
         return plhthos;
     }
-    public static void setOnoma(String args[]){
-        onoma=args[0];
+    public static void setOnoma(String onoma){
+        homeappliancesstore.onoma=onoma;
     }
-    public static void setPlhthos(String args[]){
-        plhthos=Integer.parseInt(args[2]);
+    public static void setPlhthos(int plhthos){
+        homeappliancesstore.plhthos=plhthos;
     }
-    public static void setDiefthinsi(String args[]){
-        diefthinsi=args[1];
+    public static void setDiefthinsi(String diefthinsi){
+        homeappliancesstore.diefthinsi=diefthinsi;
     }
 }
 
