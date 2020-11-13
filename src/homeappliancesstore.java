@@ -1,39 +1,29 @@
 public class homeappliancesstore{
-    static String onoma;
-    static String diefthinsi;
-     static int plhthos;
 
 
     public static void main(String[] args)
     {
+      int synolo=0;
 
-        setOnoma(args[0]);
-        setPlhthos(Integer.parseInt(args[2]));
-        setDiefthinsi(args[1]);
-        getOnoma();
-        getOnoma();
-        getOnoma();
-            System.out.println( "To perioxomenoton metablhton einai: \nonoma:" +getOnoma()+ "\ndiefthinsi:" +getDiefthinsi()+ "\nplhthos:"+getPlhthos());
+        Fridge pop1=new Fridge(90,160,80,50,"BOSCH","x33","Psygio",true,false,true,false,true);
+        WashineMachine pop2=new WashineMachine(40,60,30,55,"Samsung","power","Plynthrio",true,true,true,true,55);
+         Oven pop3=new Oven(50,65,25,90,"Pitsos","mx33","Hl.Kouzhna","keramhkes",true,7,66,false);
+         AirCondition pop4=new AirCondition(60,20,15,70,"Samsung","max33","Air condition",true,true,true,true,55);
+        Oven pop5=new Oven(50,65,25,90,"Davoline","mx33","Hl.Kouzhna","keramhkes",true,7,66,false);
+
+        pop1.ektyposh();
+        pop2.ektyposh();
+        pop3.ektyposh();
+        pop4.ektyposh();
+        pop5.ektyposh();
+        synolo=pop1.getMetrisi()+pop2.getMetrisi()+pop3.getMetrisi()+pop4.getMetrisi();
+
+        System.out.println("\n\nTo plhthos ton perioxomenon einai:"+synolo);
     }
 
-    public static String getOnoma(){
-        return onoma;
-    }
-    public static String getDiefthinsi(){
-        return diefthinsi;
-    }
-    public static int getPlhthos(){
-        return plhthos;
-    }
-    public static void setOnoma(String onoma){
-        homeappliancesstore.onoma=onoma;
-    }
-    public static void setPlhthos(int plhthos){
-        homeappliancesstore.plhthos=plhthos;
-    }
-    public static void setDiefthinsi(String diefthinsi){
-        homeappliancesstore.diefthinsi=diefthinsi;
-    }
+
+
+
 }
 
 
