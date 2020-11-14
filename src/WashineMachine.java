@@ -15,7 +15,7 @@ public class WashineMachine {
 
 
     WashineMachine(){
-
+metrisi=metrisi+1;
     }
 
 

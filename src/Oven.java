@@ -15,7 +15,7 @@ public class Oven {
 
 
     Oven(){
-
+metrisi=metrisi+1;
     }
     Oven(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,String typosestion,boolean psifiakhothoni,
          int trophpsisimatos,int xorithkothtafoyrnou,boolean shsthmakatharismoy){

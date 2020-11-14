@@ -14,6 +14,7 @@ public class Fridge {
     private  boolean minibar;
 public static int metrisi=0;
 Fridge(){
+    metrisi=metrisi+1;
 }
     Fridge(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,boolean eksodoskryou,boolean entoixoizomeno,boolean minibar,boolean pagkaki,boolean nofrost){
         this.mhkos =mhkos;

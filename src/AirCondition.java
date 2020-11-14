@@ -13,7 +13,7 @@ public class AirCondition {
     private boolean oikologikoygro;
     public  static int metrisi=0;
     AirCondition(){
-
+metrisi=metrisi+1;
     }
     AirCondition(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,boolean wifi,boolean ionisti,boolean oikologikoygro,boolean filtraaera,int thoribos){
 this.mhkos=mhkos;
