@@ -13,6 +13,19 @@ public class AirCondition {
     private boolean oikologikoygro;
     public  static int metrisi=0;
     AirCondition(){
+         mhkos=15;
+         ypsos=25;
+         bathos=13;
+         onomakat="Fujitzou";
+        onomasys="airpro55";
+         typos="Aircondition";
+         katanalosi=60;
+         wifi=true;
+        ionisti=true;
+        thoribos=35;
+        filtraaera=true;
+         oikologikoygro=true;
+
 metrisi=metrisi+1;
     }
     AirCondition(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,boolean wifi,boolean ionisti,boolean oikologikoygro,boolean filtraaera,int thoribos){

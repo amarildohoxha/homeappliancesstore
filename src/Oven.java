@@ -15,6 +15,18 @@ public class Oven {
 
 
     Oven(){
+         mhkos=55;
+         ypsos=60;
+         bathos=35;
+         onomakat="Pitsos";
+         onomasys="pro55";
+         typos="Kouzina.hl";
+         katanalosi=90;
+         typosestion="Keramikes";
+         psifiakhothoni=true;
+         trophpsisimatos=7;
+         xorithkothtafoyrnou=60;
+         shsthmakatharismoy=false;
 metrisi=metrisi+1;
     }
     Oven(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,String typosestion,boolean psifiakhothoni,

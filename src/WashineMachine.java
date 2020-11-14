@@ -15,6 +15,18 @@ public class WashineMachine {
 
 
     WashineMachine(){
+         mhkos=55;
+         ypsos=40;
+         bathos=30;
+        onomakat="Bloomberg";
+        onomasys="mx50";
+        typos="Plynthrio";
+         katanalosi=70;
+         psifiakhothonh=true;
+         smartleitorgeies=true;
+         texnologiafysalidon=true;
+         thoribos=50;
+         kathysterisi=true;
 metrisi=metrisi+1;
     }
 

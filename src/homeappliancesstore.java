@@ -14,7 +14,7 @@ public class homeappliancesstore{
         WashineMachine pop2=new WashineMachine(40,60,35,45,"Bloomberg","Tr330","Plynthrio",true,true,true,true,55);
         Oven pop3=new Oven(45,65,50,80,"Pitsos","mly800","Hl.Kouzhna","Keramhkes",true,7,66,false);
         AirCondition pop4=new AirCondition(20,25,15,60,"Samsung","maxair","Air condition",true,true,true,true,60);
-        WashineMachine pop5=new WashineMachine(35,65,55,70,"Bosch","stx550","Plynthrio",true,true,true,true,80);
+        WashineMachine pop5=new WashineMachine();
 
 
         pop1.ektyposh();
