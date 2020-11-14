@@ -140,11 +140,12 @@ public class Oven {
     }
 
     public void ektyposh(){
+        System.out.println("\n\n             OVEN");
         System.out.println("\n\n        Stoixia hl.koyzinas\n" +"Typos:" +typos + "\nOnoma kataskeyasth:" +onomakat + "\nOnoma syskebeis:" +onomasys);
         System.out.println("\n\n         Xarakthrhstika \n" + "Typos estion:" +typosestion +"\nSysthma katharismou:" +shsthmakatharismoy +"\nTopi psisimatos:" +trophpsisimatos
          +"\nXoritikothta foyrnoy:" +xorithkothtafoyrnou +"\nPsyfiakh othonh:" +psifiakhothoni + "\nKatanalosi:" +katanalosi);
         System.out.println("\n\n        Diastashs\n"+"Ypsos:" +ypsos +"\nMhkos:" +mhkos +"\nBathos:" +bathos);
-        System.out.println();
+
 
     }
 }

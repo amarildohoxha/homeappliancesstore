@@ -137,6 +137,7 @@ this.ionisti=ionisti;
     }
 
     public void ektyposh(){
+        System.out.println("\n\n             AIRCONDITION");
         System.out.println("\n\n        Stoixia Aircondition\n" +"Typos:" +typos + "\nOnoma kataskeyasth:" +onomakat + "\nOnoma syskebeis:" +onomasys);
        System.out.println("\n\n        Xaraktiristika\n" +"Wifi:" +wifi +"\nIonisti:" +ionisti +"\nFiltra aeriou:" +filtraaera +"\nOikologiko ygro(R32):" +oikologikoygro +"\nThoribos:" +thoribos);
         System.out.println("\n\n        Diastashs\n"+"Ypsos:" +ypsos +"\nMhkos:" +mhkos +"\nBathos:" +bathos);

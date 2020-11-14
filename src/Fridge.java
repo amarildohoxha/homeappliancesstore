@@ -139,6 +139,7 @@ Fridge(){
     }
 
     public void ektyposh(){
+        System.out.println("\n\n             FRIDGE");
         System.out.println("\n\n        Stoixia Psygioy\n" +"Typos:" +typos + "\nOnoma kataskeyasth:" +onomakat + "\nOnoma syskebeis:" +onomasys);
         System.out.println("\n\n     Xarakthristika\n"+"Entoixizomeno:" +entoixoizomeno +"\nEksodos kruou nerou:" +eksodoskryou +"\nEksodos gia pagkaki:" +pagkaki +"\nNofrost:" +nofrost +"\nMini bar:" +minibar);
         System.out.println("\n\n        Diastashs\n"+"Ypsos:" +ypsos +"\nMhkos:" +mhkos +"\nBathos:" +bathos);

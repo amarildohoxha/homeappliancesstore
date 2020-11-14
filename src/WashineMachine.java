@@ -142,6 +142,7 @@ public class WashineMachine {
     }
 
     public void ektyposh(){
+        System.out.println("\n\n             WASHINEMACHINE");
         System.out.println("\n\n        Stoixia Wshine\n" +"Typos:" +typos + "\nOnoma kataskeyasth:" +onomakat + "\nOnoma syskebeis:" +onomasys);
         System.out.println("\n\n     Xaraktiristika\n" +"Psyfiakh othonh:" +psifiakhothonh +"\nLeitoyrgies smart:  " +smartleitorgeies +"\nTexnologia fysalidon:" +texnologiafysalidon +"\nThoribos:" +thoribos +"\nKathisterisi enarkshs:" +kathysterisi);
         System.out.println("\n\n        Diastashs\n"+"Ypsos:" +ypsos +"\nMhkos:" +mhkos +"\nBathos:" +bathos);
