@@ -1,6 +1,6 @@
-public class Fridge {
+public class Fridge extends Device {
 
-    private static int mhkos;
+    private  int mhkos;
    private int ypsos;
     private int bathos;
     private String onomakat;
@@ -26,6 +26,7 @@ Fridge(){
     nofrost=true;
     pagkaki=true;
      minibar=true;
+     status=true;
     metrisi=metrisi+1;
 }
     Fridge(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,boolean eksodoskryou,boolean entoixoizomeno,boolean minibar,boolean pagkaki,boolean nofrost){
@@ -48,9 +49,7 @@ Fridge(){
     public void periodicMantainance(){}
 
 
-    public int getMetrisi() {
-        return metrisi;
-    }
+
 
     //get
     public int getMhkos(){
@@ -149,6 +148,10 @@ Fridge(){
 
     public void setPagkaki(boolean pagkaki) {
         this.pagkaki = pagkaki;
+    }
+
+    public  static int getMetrisi() {
+        return metrisi;
     }
 
     public void ektyposh(){

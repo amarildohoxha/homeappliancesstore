@@ -1,22 +1,24 @@
-public class AirCondition {
+public class AirCondition extends Device {
     private int mhkos;
     private int ypsos;
+    private boolean ionisti;
     private int bathos;
-    private String onomakat;
     private String onomasys;
     private String typos;
     private int katanalosi;
     private  boolean wifi;
-    private boolean ionisti;
     private int thoribos;
     private  boolean filtraaera;
     private boolean oikologikoygro;
     public  static int metrisi=0;
+    private String onomakat;
     AirCondition(){
+
          mhkos=15;
+        bathos=13;
          ypsos=25;
-         bathos=13;
-         onomakat="Fujitzou";
+
+        onomakat="Fujitzou";
         onomasys="airpro55";
          typos="Aircondition";
          katanalosi=60;
@@ -44,9 +46,7 @@ this.ionisti=ionisti;
         metrisi =metrisi+1;
     }
 
-    public int getMetrisi() {
-        return metrisi;
-    }
+
 
     public void periodicMantainance(){}
 
@@ -147,6 +147,10 @@ this.ionisti=ionisti;
 
     public void setThoribos(int thoribos) {
         this.thoribos = thoribos;
+    }
+
+    public static int getMetrisi() {
+        return metrisi;
     }
 
     public void ektyposh(){

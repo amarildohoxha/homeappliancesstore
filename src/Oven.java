@@ -1,4 +1,4 @@
-public class Oven {
+public class Oven extends Device {
     private int mhkos;
     private int ypsos;
     private int bathos;
@@ -15,6 +15,7 @@ public class Oven {
 
 
     Oven(){
+
          mhkos=55;
          ypsos=60;
          bathos=35;
@@ -45,9 +46,7 @@ metrisi=metrisi+1;
         this.typosestion=typosestion;
         metrisi=metrisi+1;
     }
-    public  int getMetrisi() {
-        return metrisi;
-    }
+
     public void periodicMantainance(){}
 
 
@@ -149,6 +148,10 @@ metrisi=metrisi+1;
 
     public void setXorithkothtafoyrnou(int xorithkothtafoyrnou) {
         this.xorithkothtafoyrnou = xorithkothtafoyrnou;
+    }
+
+    public static int getMetrisi() {
+        return metrisi;
     }
 
     public void ektyposh(){

@@ -1,4 +1,4 @@
-public class WashineMachine {
+public class WashineMachine extends Device {
     private int mhkos;
     private int ypsos;
     private int bathos;
@@ -11,10 +11,12 @@ public class WashineMachine {
     private  boolean texnologiafysalidon;
     private int thoribos;
     private boolean kathysterisi;
+
     public static int metrisi=0;
 
 
     WashineMachine(){
+
          mhkos=55;
          ypsos=40;
          bathos=30;
@@ -47,9 +49,7 @@ metrisi=metrisi+1;
         metrisi=metrisi+1;
     }
 
-    public  int getMetrisi() {
-        return metrisi;
-    }
+
 
     public void periodicMantainance(){}
 
@@ -151,6 +151,10 @@ metrisi=metrisi+1;
 
     public void setTexnologiafysalidon(boolean texnologiafysalidon) {
         this.texnologiafysalidon = texnologiafysalidon;
+    }
+
+    public static int getMetrisi() {
+        return metrisi;
     }
 
     public void ektyposh(){
