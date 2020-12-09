@@ -1,0 +1,4 @@
+Fridge 2
+Oven 3
+AirCondition 4
+WashineMachine 5
