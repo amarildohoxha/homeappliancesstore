@@ -1,4 +1,6 @@
-public class Fridge extends Device {
+import java.io.Serializable;
+
+public class Fridge implements Serializable {
 
     private  int mhkos;
    private int ypsos;
@@ -26,7 +28,7 @@ Fridge(){
     nofrost=true;
     pagkaki=true;
      minibar=true;
-     status=true;
+
     metrisi=metrisi+1;
 }
     Fridge(int mhkos,int ypsos,int bathos,int katanalosi,String onomakat,String onomasys,String typos,boolean eksodoskryou,boolean entoixoizomeno,boolean minibar,boolean pagkaki,boolean nofrost){

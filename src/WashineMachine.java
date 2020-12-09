@@ -1,4 +1,6 @@
-public class WashineMachine extends Device {
+import java.io.Serializable;
+
+public class WashineMachine implements Serializable {
     private int mhkos;
     private int ypsos;
     private int bathos;

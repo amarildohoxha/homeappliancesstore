@@ -1,4 +1,6 @@
-public class Oven extends Device {
+import java.io.Serializable;
+
+public class Oven implements Serializable {
     private int mhkos;
     private int ypsos;
     private int bathos;
